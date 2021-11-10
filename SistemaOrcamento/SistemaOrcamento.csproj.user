@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\TelaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\TelaFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\TelaOrcamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\TelaProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
